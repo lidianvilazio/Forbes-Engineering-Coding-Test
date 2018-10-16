@@ -8,7 +8,6 @@ class EventListener {
       if(page < 5) {
         page++
         Adapter.getJson(page);
-        // console.log(page, 'page');
       }
     })
   }

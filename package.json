@@ -1,0 +1,20 @@
+{
+  "name": "forbes-engineering-coding-test",
+  "version": "1.0.0",
+  "description": "Forbes Engineering Coding Test",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css  -w",
+    "start": "npm run compile:sass & live-server"
+  },
+  "author": "Lidian Vilazio",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.9.3"
+  },
+  "dependencies": {
+    "compile-sass": "0.0.5",
+    "dotenv": "^6.1.0",
+    "live-server": "^1.2.0"
+  }
+}

@@ -1,0 +1,23 @@
+
+
+.header {
+    height: 10vh;
+    background-color: $color-black;
+    color: #fcfcfc;
+    width: 100%;
+    z-index: 1000;
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    img {
+      width: 104px;
+      height: 33px;
+      position: absolute;
+      top: 1rem;
+      left: 4rem;
+    }
+
+}

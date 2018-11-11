@@ -3,7 +3,7 @@
 class Adapter {
 
   // const API_KEY: 'your_api_key';
-  // const API_SECRET: 'd002bb74b9f9d0b1';
+  // const API_SECRET: 'API_SECRET';
 
   static getJson(page) {
 
